@@ -3,5 +3,10 @@
 ## Usage:
 
     Downloader downloader = new Downloader();
+	
 
-    downloader.downloadFile("URL to file", "Path to file");
+    try {
+	    downloader.downloadFile("URL to file", "Path to file");
+	} catch (Exception e) {
+	
+	}
